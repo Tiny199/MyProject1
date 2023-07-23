@@ -1,0 +1,17 @@
+{% extends 'home/base.html' %}
+{% block title %}
+      Registery
+      {% endblock %}
+{% block content %}
+
+<h1>Registery!</h1>
+<br><br>
+<div class="form-group">
+     <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button class="btn btn-secondary">registery</button>
+     </form>
+</div>
+
+    {% endblock %}

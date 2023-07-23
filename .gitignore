@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+*Lib
+*Scripts
+    Scripts
+    Lib
+    .idea
+    media
+    static
+
